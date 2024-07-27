@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  nav {
+    flex: 1;
+    text-align: right;
+  }
+  
+  nav ul {
+    display: inline-block;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #555;
+  }
+  a:hover{
+    background-color: whitesmoke;
+  }
+  
+  p {
+    color: #555;
+  }
+  .container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+  }
+  
+  .col-2 img {
+    max-width: 100%;
+    padding: 50px 0;
+    
+  }
+  .col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    background: #ff523b;
+    color: #ffffff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+  }
+  
+  .btn:hover {
+    background: #563434;
+  }
+  
+  .header {
+    background: radial-gradient(#fff, #ffd6d6);
+  }
+  .header .row {
+    margin-top: 70px;
+  }
+
+.hero{
+  background-color: #f8f8f8;
+  overflow: hidden;
+}
+.heading h1{
+  color: #ff6347;
+  font-size: 55px;
+  text-align: center;
+  margin-top: 35px;;
+}
+.contain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 65px auto;
+}
+.hero-content{
+  flex: 1;
+  width: 600px;
+  margin: 0px 25px;
+}
+.hero-content h2{
+  font-size: 38px;
+  margin-bottom: 20px;
+  color: #333;
+}
+.hero-content p{
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  color: #666;
+
+}
+.hero-content button{
+  display: inline-block;
+  background-color: #ff4500;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.hero-content button:hover{
+  background-color: #ff6347;
+  transform: scale(1.1);
+}
+.hero.image{
+  flex: 1;
+  width: 600px;
+  margin: auto;
+}
+.image{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.sect{
+  background-color: #809faa;
+  width: 100%;
+}
+.title-2 h1{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 42px;
+}
+.title-2 h1::after{
+  
+  height: 4px;
+  width: 230px;
+  background-color: #000;
+  display: block;
+  margin: auto;
+
+}
+.Services {
+  width: 100%; /* Updated to 100% to cover the entire width */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.card {
+  width: 100%; /* Updated to 48% to leave some space between the cards */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 20px;
+  padding: 20px;
+  background-color: #efefef;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card:hover{
+  background-color: #b8d4de;
+  transition: 0.4s ease;
+}
+.card.icon{
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+.card h2{
+  font-size: 28px;
+  color: #c94f4f;
+  margin-bottom: 20px;
+}
+.card p{
+  font-size: 17px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+  color: #5e5e5e;
+}
+.button{
+  font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #2c677c;
+  padding: 8px 12px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+.button:hover{
+  background-color: #c94f4f;
+  transition:0.4s ease;
+}
+.contact{
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000;
+  background-size: cover;
+}
+.contact .content{
+  max-width: 800px;
+  text-align: center;
+}
+.contact .content h2{
+  font-size: 36px;
+  font-weight: 500;
+  color: #fff;
+}
+.contact .content p{
+  font-weight: 300;
+  color: #fff;
+
+}
+.container1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.container1 .contactInfo{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.container1 .contactInfo .box{
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+.container1 .contactInfo .box .icon{
+  min-width: 60px;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+.container1 .contactInfo .box .text{
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 300;
+}
+.container1 .contactInfo .box .text h3{
+  font-weight: 500;
+  color: #00bcd4;
+}
+.contactForm{
+  width: 40%;
+  padding: 40px;
+  background: #fff;
+
+}
+.contactForm h2{
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
+
+}
+.contactForm .inputBox{
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+.contactForm .inputBox span{
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span
+
+{
+  color: #e91e63;
+  font-size: 12px;
+  transform: translate(-20px);
+
+}
+.contactForm .inputBox input[type="submit"]{
+  width: 100px;
+  background: #00bcd4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
